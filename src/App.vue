@@ -1,20 +1,36 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">11111</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="less">
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-width: 1200px;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #EBEBEB;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #c2c2c2;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  min-height: 1001px;
+  background-color: #f2f2f2;
 }
 
 #nav {

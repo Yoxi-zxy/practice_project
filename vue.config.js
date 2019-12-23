@@ -1,5 +1,4 @@
 const path = require('path');
-
 const resolve = dir => path.join(__dirname, dir);
 const BASE_URL = process.env.NODE_ENV === 'procution' ? './' : '/';
 module.exports = {
@@ -12,6 +11,6 @@ module.exports = {
   },
   productionSourceMap: false,
   devServer: {
-    proxy: 'http://106.12.156.88',
-  },
+    proxy: 'http://106.12.156.88'
+  }
 };
