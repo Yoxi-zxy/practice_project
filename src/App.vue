@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  min-height: 1001px;
+  min-height: 100vh;
   background-color: #f2f2f2;
 }
 
